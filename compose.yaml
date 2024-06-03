@@ -1,6 +1,6 @@
 services:
   go:
-    image: golang:1.20
+    image: golang:1.21
     init: true
     volumes:
       - ./:/go
