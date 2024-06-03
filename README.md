@@ -4,8 +4,8 @@ A container image for [caddyserver/caddy][a] with the dns.providers.cloudflare m
 
 ### Development
 
-The [`dns.providers.cloudflare`][b] module  does not have versioned releases. To update the version referenced in `go.mod`,
-run the following:
+The [`dns.providers.cloudflare`][b] module does not have versioned releases. To update the version referenced in
+`go.mod`, run the following:
 
 ```shell
 docker compose run --rm go
