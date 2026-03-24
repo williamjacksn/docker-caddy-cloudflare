@@ -3,7 +3,7 @@ module github.com/williamjacksn/docker-caddy-cloudflare
 go 1.25.0
 
 require (
-	github.com/caddy-dns/cloudflare v0.2.3
+	github.com/caddy-dns/cloudflare v0.2.4
 	github.com/caddyserver/caddy/v2 v2.11.2
 )
 
