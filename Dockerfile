@@ -1,9 +1,9 @@
-FROM caddy:2.11.2-builder AS builder
+FROM caddy:2.11.3-builder AS builder
 
-RUN xcaddy build v2.11.2 \
+RUN xcaddy build v2.11.3 \
     --with github.com/caddy-dns/cloudflare@v0.2.4
 
-FROM caddy:2.11.2
+FROM caddy:2.11.3
 
 COPY --from=builder /usr/bin/caddy /usr/bin/caddy
 RUN /usr/bin/caddy version
